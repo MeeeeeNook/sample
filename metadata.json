@@ -1,0 +1,6 @@
+{
+  "name": "IeltsBurger - IELTS Practice & Test Platform",
+  "description": "An interactive IELTS Reading and Listening practice platform with test library, audio player, question palette, annotations, and detailed answer explanations.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

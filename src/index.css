@@ -1,0 +1,61 @@
+@import "tailwindcss";
+
+@variant dark (&:where(.dark, .dark *));
+
+@layer utilities {
+  .font-headline {
+    font-family: 'Hanken Grotesk', sans-serif;
+  }
+  .font-passage {
+    font-family: 'Source Serif 4', Georgia, serif;
+  }
+  .font-ui {
+    font-family: 'Inter', sans-serif;
+  }
+  .font-timer {
+    font-family: 'JetBrains Mono', monospace;
+  }
+}
+
+/* Custom Scrollbars */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background: #c4c6cd;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #75777d;
+}
+
+/* Custom text highlighting */
+::selection {
+  background-color: #fef08a;
+  color: #0f172a;
+}
+
+.text-highlight-yellow {
+  background-color: #fef08a;
+  color: #0f172a;
+  border-radius: 2px;
+  padding: 0 2px;
+}
+
+.text-highlight-green {
+  background-color: #bbf7d0;
+  color: #0f172a;
+  border-radius: 2px;
+  padding: 0 2px;
+}
+
+.text-highlight-blue {
+  background-color: #bfdbfe;
+  color: #0f172a;
+  border-radius: 2px;
+  padding: 0 2px;
+}
